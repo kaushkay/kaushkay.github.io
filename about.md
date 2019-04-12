@@ -4,43 +4,33 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>I'm second-year <b>Electrical</b> major at <b>National Institute of Technology (Kurukshetra), India</b>. During my 2 years of college, I've developed a passion for <b>Deep Learning</b> and <b>Artificial Intelligence</b>. I'm intrigued by its research prospects. I'm extremely interested in pursuing independent research and a good internship would consolidate my future career choice.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>I'm personally interested in the applications of Computer Vision and how it is contributing to the State-of-Art of Deep Learning. I personally recommend everyone to watch Mr. Lex Fridman's (Research scientist at MIT, working on human-centered AI, autonomous vehicles, etc.) podcasts and Lectures on Deep Learning of Autonomous Vehicles. </p>
 
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
 	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
+	<li>SQL</li>
+	<li>C</li>
+	<li>Matlab</li>
+	<li>Tensorflow</li>
+	<li>Scikit-Learn, Numpy, Pandas, Spark, Jupyter</li>
+	<li>Keras</li>
+	<li>OpenCV</li>
+	<li>Big Data</li>
+	<li>GCP</li>
+	<li>Github</li>
+	<li>Docker</li>
 </ul>
 
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+	<li><a href="https://github.com/Abhi-1198/Image-Captioning-Workshop">Image Captioning Workshop 2019</a></li>
+	<li><a href="https://github.com/kaushkay/Traffic-Light-Classification">Traffic Light Classification</a></li>
+	<li><a href="https://github.com/kaushkay/recommender-system">Recommender System</a></li>
+	<li><a href="https://github.com/kaushkay/Multi-input-and-multi-output-models">Multi-input-and-multi-output-models</a></li>
+
 </ul>
