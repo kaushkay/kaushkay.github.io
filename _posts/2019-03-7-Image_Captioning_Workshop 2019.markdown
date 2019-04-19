@@ -21,7 +21,8 @@ externalLink: false
 ---
 
 With the increasing craze of Artificial Intelligence, we also got involved in spreading some knowledge about Deep Learning by conducting this 3-day Workshop.
-In this Workshop, we taught the basics of Neural Networks on ## Day 1.
+In this Workshop, we taught the basics of Neural Networks on
+## Day 1
 
 ![pic2](/assets/images/icw_2019/pic2.jpg)
 
@@ -43,16 +44,5 @@ In Neural networks, we taught about the following topics :
 
 ## Day 2
 
-
-
-
-
-What has inside?
-
-## Contents:
-1. [Neural Network Basics](https://github.com/Abhi-1198/Image-Captioning-Workshop/tree/master/Neural%20Network%20Basics)
-2. [Intro to CNN](https://github.com/Abhi-1198/Image-Captioning-Workshop/tree/master/CNN)
-3. [Intro to RNN](https://github.com/Abhi-1198/Image-Captioning-Workshop/tree/master/RNN)
-4. [Image Captioning Project](https://github.com/Abhi-1198/Image-Captioning-Workshop/tree/master/image-captioning)
 
 ---
