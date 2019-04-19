@@ -17,10 +17,11 @@ externalLink: false
 
 
 *in National Institute of Technology, Kurukshetra*
+
 ---
 
 With the increasing craze of Artificial Intelligence, we also got involved in spreading some knowledge about Deep Learning by conducting this 3-day Workshop.
-In this Workshop, we taught the basics of Neural Networks on ##Day 1.
+In this Workshop, we taught the basics of Neural Networks on ## Day 1.
 
 ![pic2](/assets/images/icw_2019/pic2.jpg)
 
@@ -40,7 +41,8 @@ In Neural networks, we taught about the following topics :
 
 ---
 
-##Day 2
+## Day 2
+
 
 
 
