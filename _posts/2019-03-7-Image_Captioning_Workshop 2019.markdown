@@ -3,7 +3,7 @@ title: "Image Captioning Workshop 2019"
 layout: post
 date: 2019-03-07 18:00
 tag: deeplearning, machinelearning, artificialintelligence
-image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png
+image: /assets/images/icw_2019/image_caption_poster.jpg
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
