@@ -63,7 +63,7 @@ The whole Day 2 covered the following topics :
 
 ## Day 3
 
-​This whole day was taught by my friend [Abhimanyu](https://github.com/Abhi-1198) and [Ratin](https://github.com/DumbMachine). It was based on the introduction of RNN, i.e.​ **Recurrent Neural Network**.[Recurrent Neural Networks Python Notebook](aushkay/Image-Captioning-Workshop/blob/master/RNN/RNN%20Tutorial.ipynb)
+​This whole day was taught by my friend [Abhimanyu](https://github.com/Abhi-1198) and [Ratin](https://github.com/DumbMachine). It was based on the introduction of RNN, i.e.​ **Recurrent Neural Network**.[Recurrent Neural Networks Python Notebook](kaushkay/Image-Captioning-Workshop/blob/master/RNN/RNN%20Tutorial.ipynb)
 They covered the basics of RNN and the content of RNN related to the project.
 
 ![pic3](/assets/images/icw_2019/pic3.jpg)
@@ -73,6 +73,8 @@ They covered the basics of RNN and the content of RNN related to the project.
 After that, the final project starts :
 ## THE IMAGE CAPTIONING
 We made the whole project in front of the students and cleared their doubts. They also completed this project with us.
+[THE IMAGE CAPTIONING Python Notebook](https://github.com/kaushkay/Image-Captioning-Workshop/blob/master/image-captioning/something.ipynb)
+
 The main objectives of the whole workshop are:
 
 > To introduce the area of Deep Learning and Artificial Intelligence in our college.
