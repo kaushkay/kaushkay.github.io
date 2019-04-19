@@ -3,7 +3,7 @@ name: Kaushlendra Kumar Giri
 bio: Machine Learning And Artificial Intelligence Enthusiast (also an Electrical Engineer)
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: A blog about Deep Learning and stuff related
 
 # if it's an external image, update below for true
 # better with square images
@@ -14,7 +14,7 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-#resume-url: https://drive.google.com/file/d/1uROy5D59NZLLOAz6m-2MkRGlLmv05QSK/view?usp=sharing
+resume-url: https://drive.google.com/file/d/1uROy5D59NZLLOAz6m-2MkRGlLmv05QSK/view?usp=sharing
 
 url: https://kaushkay.github.io
 #your url: http://USERNAME.github.io
@@ -29,9 +29,9 @@ permalink: /:title/
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, leave categories empty
-disqus:
-    shortname: kaushkay # enter this from your disqus account
-    categories: [blog, project] # only show disqus for posts that have these categories
+#disqus:
+    #shortname: kaushkay # enter this from your disqus account
+    #categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
