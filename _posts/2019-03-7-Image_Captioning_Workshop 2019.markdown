@@ -20,7 +20,7 @@ externalLink: false
 
 ---
 
-With the increasing craze of Artificial Intelligence, we also got involved in spreading some knowledge about Deep Learning by conducting this 3-day Workshop.
+With the increasing craze of Artificial Intelligence, we also got involved in spreading some knowledge about Deep Learning by conducting this 3-Days Workshop.
 In this Workshop, we taught the basics of Neural Networks on
 ## Day 1
 
@@ -63,8 +63,10 @@ The whole Day 2 covered the following topics :
 
 ## Day 3
 
-​This whole day was taught by my friend [Abhimanyu](https://github.com/Abhi-1198) and [Ratin](https://github.com/DumbMachine). It was based on the introduction of RNN, i.e.​ **Recurrent Neural Network**.[Recurrent Neural Networks Python Notebook](kaushkay/Image-Captioning-Workshop/blob/master/RNN/RNN%20Tutorial.ipynb)
+​This whole day was taught by my friend [Abhimanyu](https://github.com/Abhi-1198) and [Ratin](https://github.com/DumbMachine). It was based on the introduction of RNN, i.e.​ **Recurrent Neural Network**.<br>
 They covered the basics of RNN and the content of RNN related to the project.
+
+[Recurrent Neural Networks Python Notebook](kaushkay/Image-Captioning-Workshop/blob/master/RNN/RNN%20Tutorial.ipynb)
 
 ![pic3](/assets/images/icw_2019/pic3.jpg)
 
@@ -77,7 +79,10 @@ We made the whole project in front of the students and cleared their doubts. The
 
 The main objectives of the whole workshop are:
 
-> To introduce the area of Deep Learning and Artificial Intelligence in our college.
-> To make they aware that how Artificial Intelligence will shape our future and how important it is.
-> To make them aware about the job opportunities in this field.
-> To make them familiar about the Open Source contributions and introduce git.
+1. To introduce the area of Deep Learning and Artificial Intelligence in our college.
+
+2. To make they aware that how Artificial Intelligence will shape our future and how important it is.
+
+3. To make them aware about the job opportunities in this field.
+
+4. To make them familiar about the Open Source contributions and introduce git.
