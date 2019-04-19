@@ -7,27 +7,29 @@ image: /assets/images/icw_2019/image_caption_poster.jpg
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
-description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
+description: "Workshop conducted by GAWDS on Image Captioning with RNN & CNN"
 category: project
 author: kaushkay
 externalLink: false
 ---
 
-![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png)
+![Poster](/assets/images/icw_2019/image_caption_poster.jpg)
 
-Example of project - Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/). This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
+# Image-Captioning-Workshop
+*in National Institute of Technology, Kurukshetra*
+
+This Repository contains the resources for the Image Captioning workshop conducted by GAWDS.
+
 
 ---
 
 What has inside?
 
-- Gulp
-- BrowserSync
-- Stylus
-- SVG
-- Travis
-- No JS
-- [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F)
+## Contents:
+1. [Neural Network Basics](https://github.com/Abhi-1198/Image-Captioning-Workshop/tree/master/Neural%20Network%20Basics)
+2. [Intro to CNN](https://github.com/Abhi-1198/Image-Captioning-Workshop/tree/master/CNN)
+3. [Intro to RNN](https://github.com/Abhi-1198/Image-Captioning-Workshop/tree/master/RNN)
+4. [Image Captioning Project](https://github.com/Abhi-1198/Image-Captioning-Workshop/tree/master/image-captioning)
 
 ---
 
