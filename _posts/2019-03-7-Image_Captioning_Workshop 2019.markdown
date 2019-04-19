@@ -24,7 +24,7 @@ With the increasing craze of Artificial Intelligence, we also got involved in sp
 In this Workshop, we taught the basics of Neural Networks on
 ## Day 1
 
-![pic2](/assets/images/icw_2019/pic2.jpg){: style="float:right"}
+![pic2](/assets/images/icw_2019/pic2.jpg){: style="float:center"}
 
 In Neural networks, we taught about the following topics :
 1. What/Why Neural Networks?
