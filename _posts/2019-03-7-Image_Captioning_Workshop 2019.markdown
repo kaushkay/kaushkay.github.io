@@ -1,8 +1,8 @@
 ---
-title: "My Projects"
+title: "Image Captioning Workshop 2019"
 layout: post
-date: 2019-04-19 10:10
-tag: deeplearning
+date: 2019-03-07 18:00
+tag: deeplearning, machinelearning, artificialintelligence
 image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png
 headerImage: true
 projects: true
