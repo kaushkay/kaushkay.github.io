@@ -8,7 +8,7 @@ headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "Workshop conducted by GAWDS on Image Captioning with RNN & CNN"
-category: project
+category: blog
 author: kaushkay
 externalLink: false
 ---
