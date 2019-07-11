@@ -14,7 +14,7 @@ author: kaushkay
 description: This algorithm can be used in the place of "Simple Logistic Regression", as it runs faster than it.
 ---
 
-![gif](/assets/images/nmlr/NewtonIteration_Ani.gif)
+![gif](/assets/images/nmlr/NewtonIteration_Ani.gif =50x30)
 *Source : Wikipedia*
 ## Summary:
 
