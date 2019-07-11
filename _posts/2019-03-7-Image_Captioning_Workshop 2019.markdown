@@ -3,8 +3,8 @@ title: "Image Captioning Workshop 2019"
 layout: post
 date: 2019-03-07 18:00
 tag: [deeplearning, machinelearning, artificialintelligence]
-image: /assets/images/icw_2019/DA.png
-headerImage: true
+# image: /assets/images/icw_2019/DA.png
+headerImage: false
 #projects: false
 hidden: false # don't count this post in blog pagination
 description: "Workshop conducted by GAWDS on Image Captioning with RNN & CNN"
