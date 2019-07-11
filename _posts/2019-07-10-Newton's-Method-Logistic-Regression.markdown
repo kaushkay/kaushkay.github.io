@@ -14,6 +14,8 @@ author: kaushkay
 description: This algorithm can be used in the place of "Simple Logistic Regression", as it runs faster than it.
 ---
 
+![gif](/assets/images/nmlr/NewtonIteration_Ani.gif)
+*Source : Wikipedia*
 ## Summary:
 
 
@@ -27,3 +29,4 @@ description: This algorithm can be used in the place of "Simple Logistic Regress
 3. <https://www.softcover.io/read/bf34ea25/math_for_finance/multivariable_methods>
 4. <https://en.wikipedia.org/wiki/Newton%27s_method>
 
+---
