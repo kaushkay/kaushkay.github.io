@@ -22,8 +22,8 @@ description: This algorithm can be used in the place of "Simple Logistic Regress
 
 
 ## References :
-1. [](http://mathworld.wolfram.com/NewtonsMethod.html)
-2. [](https://en.wikipedia.org/wiki/Newton%27s_method_in_optimization)
-3. [](https://www.softcover.io/read/bf34ea25/math_for_finance/multivariable_methods)
-4. [](https://en.wikipedia.org/wiki/Newton%27s_method)
-...
+1. <http://mathworld.wolfram.com/NewtonsMethod.html>
+2. <https://en.wikipedia.org/wiki/Newton%27s_method_in_optimization>
+3. <https://www.softcover.io/read/bf34ea25/math_for_finance/multivariable_methods>
+4. <https://en.wikipedia.org/wiki/Newton%27s_method>
+
