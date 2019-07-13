@@ -15,19 +15,29 @@ externalLink: false
 
 ![Quasar](/assets/images/projects/reg_for_quasar_spectra/quasar_2.jpg)
 
-Example of project - Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/). This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
+A quasar can be defined as an extremely Active Galactic Nucleus (AGN). AN AGN is nothing more than a supermassive black hole that is active and feeding at the center of a galaxy. They are extremely bright and sometimes mistaken for stars. However, the energy output of a star is nowhere near the amount of energy pumped out by a quasar. The word “quasar” originates from the contraction of “quasi-stellar”, which references a star-like radio source. 
 
 ---
 
-What has inside?
+### Properties of Quasars : 
+The electromagnetic spectrum gives us the range of frequencies of different electromagnetic waves and their respective wavelengths. There are different electromagnetic wave regions, based on their frequency.
 
-- Gulp
-- BrowserSync
-- Stylus
-- SVG
-- Travis
-- No JS
-- [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F)
+![Different Spectra](/assets/images/projects/reg_for_quasar_spectra/Electromagnetic-Spectrum-1.jpg)
+
+Quasars are known to emit electromagnetic radiation, which lies between the visible and X-ray regions. They also emit large amounts of ultraviolet waves.
+
+Quasar Spectra for "Messier 31" Galaxy is shown below :
+
+![Different Spectra](/assets/images/projects/reg_for_quasar_spectra/quasar_spec_messier.jpg)
+
+---
+
+References : 
+
+- <https://www.scienceabc.com/pure-sciences/what-are-quasars.html>
+- <http://www.astrosurf.com/buil/galaxies/spectra.html>
+
+
 
 ---
 
