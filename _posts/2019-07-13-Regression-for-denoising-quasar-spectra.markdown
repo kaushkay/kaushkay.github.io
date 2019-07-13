@@ -32,10 +32,23 @@ Quasar Spectra for "Messier 31" Galaxy is shown below :
 
 ---
 
-References : 
+Understanding the properties of the spectrum of the light emitted by a quasar is useful for a number of tasks :
+- A number of quasar properties can be estimated from the spectra.
+- Properties of the regions of the universe through which the light passes can also be evaluated.
+For example, we can estimate the density of neutral and ionized particles in the universe, which helps cosmologists understand the evolution and fundamental laws governing its structure.
 
+The light spectrum is a curve that relates the light’s intensity (formally, lumens per square meter), or luminous flux, to its wavelength.
+![quasar_1](/assets/images/projects/reg_for_quasar_spectra/quasar_1.jpg)
+
+The wavelengths are measured in Angstroms (°A), where 1°A= 10−10 meters.
+---
+
+### References : 
+
+- Ciollaro, Mattia, et al. “Functional regression for quasar spectra.” arXiv:1404.3168 (2014)
 - <https://www.scienceabc.com/pure-sciences/what-are-quasars.html>
 - <http://www.astrosurf.com/buil/galaxies/spectra.html>
+
 
 
 
