@@ -41,17 +41,17 @@ The light spectrum is a curve that relates the light’s intensity (formally, lu
 
 ![quasar_1](/assets/images/projects/reg_for_quasar_spectra/quasar_1.jpg)
 
-The blue line shows the intrinsic (i.e. original) flux spectrum emitted by the quasar. The red line denotes the observed spectrum here on Earth. To the left of the Lyman- $\alpha$ line, the observed flux is damped and the intrinsic (unabsorbed) flux continuum is not clearly recognizable (red line). To the right of the Lyman- $\alpha$ line, the observed flux approximates the intrinsic spectrum.
+The blue line shows the intrinsic (i.e. original) flux spectrum emitted by the quasar. The red line denotes the observed spectrum here on Earth. To the left of the Lyman-α line, the observed flux is damped and the intrinsic (unabsorbed) flux continuum is not clearly recognizable (red line). To the right of the Lyman-α line, the observed flux approximates the intrinsic spectrum.
 
-The Lyman-$\alpha$ wavelength is a wavelength beyond which intervening particles at most negligibly interfere with light emitted from the quasar. (Interference generally occurs when a photon is absorbed by a neutral hydrogen atom, which only occurs for certain wavelengths of light.) For wavelengths greater than this Lyman-$\alpha$ wavelength, the observed light spectrum fobs can be modeled as a smooth spectrum f plus noise:
+The Lyman-α wavelength is a wavelength beyond which intervening particles at most negligibly interfere with light emitted from the quasar. (Interference generally occurs when a photon is absorbed by a neutral hydrogen atom, which only occurs for certain wavelengths of light.) For wavelengths greater than this Lyman-α wavelength, the observed light spectrum fobs can be modeled as a smooth spectrum f plus noise:
 
 f_obs(λ) = f(λ) + noise(λ)
 
-For wavelengths below the Lyman-$\alpha$ wavelength, a region of the spectrum known as the Lyman- $\alpha$ forest, intervening matter causes attenuation of the observed signal. As light emitted by the quasar travels through regions of the universe richer in neutral hydrogen, some of it is absorbed, which we model as
+For wavelengths below the Lyman-α wavelength, a region of the spectrum known as the Lyman-α forest, intervening matter causes attenuation of the observed signal. As light emitted by the quasar travels through regions of the universe richer in neutral hydrogen, some of it is absorbed, which we model as
 
 f_obs(λ) = absorption(λ) · f(λ) + noise(λ)
 
-Astrophysicists and cosmologists wish to understand the absorption function, which gives infor- mation about the Lyman-$\alpha$ forest, and hence the distribution of neutral hydrogen in otherwise unreachable regions of the universe. This gives clues toward the formation and evolution of the universe. Thus, it is our goal to estimate the spectrum f of an observed quasar.
+Astrophysicists and cosmologists wish to understand the absorption function, which gives infor- mation about the Lyman-α forest, and hence the distribution of neutral hydrogen in otherwise unreachable regions of the universe. This gives clues toward the formation and evolution of the universe. Thus, it is our goal to estimate the spectrum f of an observed quasar.
 
 ---
 
