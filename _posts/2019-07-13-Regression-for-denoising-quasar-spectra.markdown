@@ -41,7 +41,7 @@ The light spectrum is a curve that relates the light’s intensity (formally, lu
 
 ![quasar_1](/assets/images/projects/reg_for_quasar_spectra/quasar_1.jpg)
 
-The blue line shows the intrinsic (i.e. original) flux spectrum emitted by the quasar. The red line denotes the observed spectrum here on Earth. To the left of the Lyman- \alpha line, the observed flux is damped and the intrinsic (unabsorbed) flux continuum is not clearly recognizable (red line). To the right of the Lyman- \alpha line, the observed flux approximates the intrinsic spectrum.
+The blue line shows the intrinsic (i.e. original) flux spectrum emitted by the quasar. The red line denotes the observed spectrum here on Earth. To the left of the Lyman- $\alpha$ line, the observed flux is damped and the intrinsic (unabsorbed) flux continuum is not clearly recognizable (red line). To the right of the Lyman- $\alpha$ line, the observed flux approximates the intrinsic spectrum.
 
 ---
 
