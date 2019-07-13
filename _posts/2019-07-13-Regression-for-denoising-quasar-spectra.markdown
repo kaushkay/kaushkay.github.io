@@ -37,10 +37,12 @@ Understanding the properties of the spectrum of the light emitted by a quasar is
 - Properties of the regions of the universe through which the light passes can also be evaluated.
 For example, we can estimate the density of neutral and ionized particles in the universe, which helps cosmologists understand the evolution and fundamental laws governing its structure.
 
-The light spectrum is a curve that relates the light’s intensity (formally, lumens per square meter), or luminous flux, to its wavelength.
+The light spectrum is a curve that relates the light’s intensity (formally, lumens per square meter), or luminous flux, to its wavelength. The wavelengths are measured in Angstroms (°A), where 1°A= 10−10 meters.
+
 ![quasar_1](/assets/images/projects/reg_for_quasar_spectra/quasar_1.jpg)
 
-The wavelengths are measured in Angstroms (°A), where 1°A= 10−10 meters.
+The blue line shows the intrinsic (i.e. original) flux spectrum emitted by the quasar. The red line denotes the observed spectrum here on Earth. To the left of the Lyman- \alpha line, the observed flux is damped and the intrinsic (unabsorbed) flux continuum is not clearly recognizable (red line). To the right of the Lyman- \alpha line, the observed flux approximates the intrinsic spectrum.
+
 ---
 
 ### References : 
