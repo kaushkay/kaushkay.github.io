@@ -2,7 +2,7 @@
 title: "Image Captioning Workshop 2019"
 layout: post
 date: 2019-03-07 18:00
-tag: [deeplearning, machinelearning, artificialintelligence]
+tag: [deep learning, machine learning, artificial intelligence]
 # image: /assets/images/icw_2019/DA.png
 headerImage: false
 #projects: false

@@ -2,7 +2,7 @@
 title: "Denoising Quasar Spectra"
 layout: post
 date: 2019-07-13 11:10
-tag: [machinelearning, regression, supervisedlearning, artificialintelligence]
+tag: [machine learning, regression, supervised learning, artificial intelligence]
 #image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png
 headerImage: false
 projects: true
@@ -13,7 +13,7 @@ author: kaushkay
 externalLink: false
 ---
 
-![Quasar](/assets/images/projects/reg_for_quasar_spectra/quasar_2.jpg)
+![Quasar](/assets/images/projects/reg_for_quasar_spectra/quasar_2.png)
 
 Example of project - Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/). This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
 
