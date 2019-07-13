@@ -2,7 +2,7 @@
 title: "De-Noising Quasar Spectra"
 layout: post
 date: 2019-07-13 11:10
-tag: [machine learning, regression, supervised learning, artificial intelligence]
+tag: [machinelearning, regression, supervisedlearning, artificialintelligence]
 #image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png
 headerImage: false
 projects: true

@@ -5,10 +5,7 @@ date: 2019-07-11 11:00
 
 #image: /assets/images/nmlr/
 headerImage: false
-#tag:
-#- Machine Learning
-#- Deep Learning
-#- Logistic Regression
+tag: [deeplearning, machinelearning, logisticregression]
 category: blog
 author: kaushkay
 description: This algorithm can be used in the place of "Simple Logistic Regression".
