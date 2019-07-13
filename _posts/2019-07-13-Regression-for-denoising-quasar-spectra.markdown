@@ -1,5 +1,5 @@
 ---
-title: "De-noising Quasar Spectra"
+title: "De-Noising Quasar Spectra"
 layout: post
 date: 2019-07-13 11:10
 tag: [machine learning, regression, supervised learning, artificial intelligence]
