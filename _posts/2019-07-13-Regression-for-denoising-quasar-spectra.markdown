@@ -60,6 +60,10 @@ Used data generated from the Hubble Space Telescope Faint Object Spectrograph (H
 
 ---
 
+### Link For the Python Notebook:
+
+---
+
 ### References : 
 
 - Ciollaro, Mattia, et al. “Functional regression for quasar spectra.” arXiv:1404.3168 (2014)
@@ -70,6 +74,3 @@ Used data generated from the Hubble Space Telescope Faint Object Spectrograph (H
 
 
 ---
-
-[Check it out](http://sergiokopplin.github.io/indigo/) here.
-If you need some help, just [tell me](http://github.com/sergiokopplin/indigo/issues).
