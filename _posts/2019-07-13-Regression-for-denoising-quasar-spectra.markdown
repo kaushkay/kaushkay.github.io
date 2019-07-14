@@ -61,26 +61,28 @@ Used data generated from the Hubble Space Telescope Faint Object Spectrograph (H
 ---
 
 We wish to predict an entire part of a spectrum—a curve—from noisy observed data. We begin by supposing that we observe a random sample of m absorption-free spectra, which is possible for quasars very close (in a sense relative to the size of the universe!) to Earth. For a given spectrum f, define f_right to be the spectrum to the right of the Lyman-α line. Let f_left be the spectrum within the Lyman-α forest region, that is, for lower wavelengths. To make the results cleaner, we define:
-f(λ) = ( f_left(λ) ; if λ < 1200  and f_right(λ) ; if λ ≥ 1300 )
+
+->f(λ) = ( f_left(λ) ; if λ < 1200  and f_right(λ) ; if λ ≥ 1300 )<-
 
 We will learn a function r (for regression) that maps an observed f_right to an unobserved target f_left (note that f_left and f_right don’t cover the entire spectrum). This is useful in practice because we observe f_right with only random noise: there is no systematic absorp- tion, which we cannot observe directly, because hydrogen does not absorb photons with higher wavelengths. By predicting f_left from a noisy version of f_right, we can estimate the unobservable spectrum of a quasar as well as the absorption function. Imaging systems collect data of the form 
 
-f_obs(λ) = absorption(λ) · f(λ) + noise(λ) 
+->f_obs(λ) = absorption(λ) · f(λ) + noise(λ)<-
 
 for λ ∈ {λ1, . . . , λn}, a finite number of points λ, because they must quantize the information. That is, even in the quasars-close-to-Earth training data, our observations of f_left and f_right consist of noisy evaluations of the true spectrum f at multiple wavelengths. In our case, we have n = 450 and λ1 = 1150, . . . , λn = 1599.
 
 We formulate the functional regression task as the goal of learning the function r mapping f_right to f_left:
-r(f_right)(λ) = E(f_left | f_right)(λ)
+
+->r(f_right)(λ) = E(f_left | f_right)(λ)<-
 
 To estimate the unobserved spectrum f_left of a quasar from its (noisy) observed spectrum f_right. To do so, we perform a weighted regression of the locally weighted regressions. In particular, given a new noisy spectrum observation:
 
-f_obs(λ) = f(λ) + noise(λ) 
+->f_obs(λ) = f(λ) + noise(λ)<-
 
 for λ ∈ {1300, . . . , 1599}.
 
 We define a metric d which takes as input, two spectra f1 and f2, and outputs a scalar:
 
-d(f_1, f_2) = \sum_{i} (f_1(λ_i) − f_2(λ_i))^2
+->d(f_1, f_2) = \sum_{i} (f_1(λ_i) − f_2(λ_i))^2<-
 
 The metric d computes squared distance between the new datapoint and previous datapoints. If f1 and f2 are right spectra, then we take the preceding sum only over λ ∈ {1300, . . . , 1599}, rather than the entire spectrum.
 
