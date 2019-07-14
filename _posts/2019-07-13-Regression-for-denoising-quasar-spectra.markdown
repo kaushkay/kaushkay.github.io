@@ -170,6 +170,7 @@ plt.tight_layout()
 <div style="text-align:center"><img src="/assets/images/projects/reg_for_quasar_spectra/pred_test.jpg"></div>
 
 Overall, the prediction was not as good as it was expected, for both training and testing data.
+
 ---
 
 ### References : 
