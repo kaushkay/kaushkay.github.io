@@ -13,7 +13,7 @@ author: kaushkay
 externalLink: false
 ---
 
-<div style="text-align:center">![Quasar](/assets/images/projects/reg_for_quasar_spectra/quasar_2.jpg)</div>
+<div style="text-align:center"><img src="/assets/images/projects/reg_for_quasar_spectra/quasar_2.jpg"></div>
 
 A quasar can be defined as an extremely Active Galactic Nucleus (AGN). An AGN is nothing more than a supermassive black hole that is active and feeding at the center of a galaxy. They are extremely bright and sometimes mistaken for stars. However, the energy output of a star is nowhere near the amount of energy pumped out by a quasar. The word “quasar” originates from the contraction of “quasi-stellar”, which references a star-like radio source. 
 
@@ -22,13 +22,13 @@ A quasar can be defined as an extremely Active Galactic Nucleus (AGN). An AGN is
 ### Properties of Quasars : 
 The electromagnetic spectrum gives us the range of frequencies of different electromagnetic waves and their respective wavelengths. There are different electromagnetic wave regions, based on their frequency.
 
-<div style="text-align:center">![Different Spectra](/assets/images/projects/reg_for_quasar_spectra/Electromagnetic-Spectrum-1.jpg)</div>
+<div style="text-align:center"><img src="/assets/images/projects/reg_for_quasar_spectra/Electromagnetic-Spectrum-1.jpg"></div>
 
 Quasars are known to emit electromagnetic radiation, which lies between the visible and X-ray regions. They also emit large amounts of ultraviolet waves.
 
 Quasar Spectra for "Messier 31" Galaxy is shown below :
 
-<div style="text-align:center">![Different Spectra](/assets/images/projects/reg_for_quasar_spectra/quasar_spec_messier.jpg)</div>
+<div style="text-align:center"><img src="/assets/images/projects/reg_for_quasar_spectra/quasar_spec_messier.jpg"></div>
 
 ---
 
@@ -39,7 +39,7 @@ For example, we can estimate the density of neutral and ionized particles in the
 
 The light spectrum is a curve that relates the light’s intensity (formally, lumens per square meter), or luminous flux, to its wavelength. The wavelengths are measured in Angstroms (°A), where 1°A= 10^(−10) meters.
 
-<div style="text-align:center">![quasar_1](/assets/images/projects/reg_for_quasar_spectra/quasar_1.jpg)</div>
+<div style="text-align:center"><img src="/assets/images/projects/reg_for_quasar_spectra/quasar_1.jpg"></div>
 
 The blue line shows the intrinsic (i.e. original) flux spectrum emitted by the quasar. The red line denotes the observed spectrum here on Earth. To the left of the Lyman-α line, the observed flux is damped and the intrinsic (unabsorbed) flux continuum is not clearly recognizable (red line). To the right of the Lyman-α line, the observed flux approximates the intrinsic spectrum.
 
