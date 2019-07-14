@@ -11,8 +11,8 @@ author: kaushkay
 description: This algorithm can be used in the place of "Simple Logistic Regression".
 ---
 
+<div style="text-align:center"><img src="/assets/images/blogs/nmlr/NewtonIteration_Ani.gif"></div>
 
-# Image
 ---
 
 The Newton's Method can be used in place of Simple Logistic Regression Algorithm. It can be used to maximize the log likelihood function, $l(\theta)$ .
