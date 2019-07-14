@@ -64,6 +64,13 @@ We wish to predict an entire part of a spectrum—a curve—from noisy observed 
 
 <div style="text-align:center">f(λ) = ( f_left(λ) ; if λ < 1200  and f_right(λ) ; if λ ≥ 1300 )</div>
 
+```python
+
+wl_right = wave_lens[wave_lens >= 1300]
+wl_left = wave_lens[wave_lens < 1200]
+
+```
+
 We will learn a function r (for regression) that maps an observed f_right to an unobserved target f_left (note that f_left and f_right don’t cover the entire spectrum). This is useful in practice because we observe f_right with only random noise: there is no systematic absorp- tion, which we cannot observe directly, because hydrogen does not absorb photons with higher wavelengths. By predicting f_left from a noisy version of f_right, we can estimate the unobservable spectrum of a quasar as well as the absorption function. Imaging systems collect data of the form 
 
 <div style="text-align:center">f_obs(λ) = absorption(λ) · f(λ) + noise(λ)</div>
@@ -82,17 +89,64 @@ for λ ∈ {1300, . . . , 1599}.
 
 We define a metric d which takes as input, two spectra f1 and f2, and outputs a scalar:
 
-<div style="text-align:center">
-d(f_1, f_2) = \sum_{i} (f_1(λ_i) − f_2(λ_i))^2
-</div>
+<div style="text-align:center">d(f_1, f_2) = sum((f_1(λ_i) − f_2(λ_i))^2) for all i.</div>
+
+
+That is in python : 
 
 ```python
+
 dists = ((df_fs_test_r - row) ** 2).sum(axis=1)
+
 ```
 
 The metric d computes squared distance between the new datapoint and previous datapoints. If f1 and f2 are right spectra, then we take the preceding sum only over λ ∈ {1300, . . . , 1599}, rather than the entire spectrum.
 
 Based on this distance function, we may define the nonparametric functional regression estimator, which is a locally weighted sum of functions f_left from the training data (this is like locally weighted linear regression, except that instead of predicting y ∈ R we predict a function f_left). Specifically, let f_right denote the right side of a spectrum, which we have smoothed using locally weighted linear regression (as you were told to do in the previous part of the problem). We wish to estimate the associated left spectrum f_left. Define the function ker(t) = max{1 − t, 0} and let neighb_k(f_right) denote the k indices i ∈ {1, 2, . . . ,m} of the training set that are closest to f_right.
+
+```python
+
+# It's very similar to k-nearest-neighbour algorithm,
+# it select the neihbours based on distances calculated from the right spectrum
+
+num_neighb = 3 # number of neighbours to consider
+errors = []
+preds_tv = []
+
+for k, row in df_fs_tv_r.iterrows():
+    dists = ((df_fs_tv_r - row) ** 2).sum(axis=1)
+    max_d = dists.max()
+    neighb_ds = dists.sort_values()[:num_neighb]
+    
+    p1 = np.sum([ker(d / max_d) * df_fs_tv_l.loc[idx] for (idx, d) in neighb_ds.iteritems()], axis = 0)
+    p2 = np.sum([ker(d / max_d) for (idx, d) in neighb_ds.iteritems()])
+    
+    f_left_hat = p1/p2
+    preds_tv.append(f_left_hat)
+    error = np.sum((f_left_hat - df_fs_tv_l.loc[k])**2)
+    errors.append(error)
+    
+
+```
+
+We also visualized some of the predictions on the train dataset:
+
+```python
+
+fig, axes = plt.subplots(3,3,figsize=(14,12))
+axes = axes.ravel()
+
+for k, idx in enumerate([0,5,10,15,20,25,30,35,40]):
+    ax = axes[k]
+    ax.plot(wave_lens, df_fs_tv.loc[idx], label='smoothed')
+    ax.plot(wl_left, preds_tv[idx], label='predicted')
+    ax.legend()
+    ax.set_title("Example {0}".format(idx + 1))
+    
+plt.tight_layout()
+
+```
+<div style="text-align:center"><img src="/assets/images/projects/reg_for_quasar_spectra/pred_train.jpg"></div>
 
 ---
 
