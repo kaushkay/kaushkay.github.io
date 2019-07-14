@@ -1,5 +1,5 @@
 ---
-title: "Newton's Method For Logistic Regression"
+title: "Another Algorithm for Optimization : Newton's Method"
 layout: post
 date: 2019-07-11 11:00
 
@@ -13,7 +13,7 @@ description: This algorithm can be used in the place of "Simple Logistic Regress
 
 <div style="text-align:center"><img src="/assets/images/blogs/nmlr/NewtonIteration_Ani.gif"></div>
 
----
+
 
 The Newton's Method can be used in place of Simple Logistic Regression Algorithm. It can be used to maximize the log likelihood function, $l(\theta)$ .
 
