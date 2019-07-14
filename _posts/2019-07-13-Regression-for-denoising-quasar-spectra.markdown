@@ -82,7 +82,13 @@ for λ ∈ {1300, . . . , 1599}.
 
 We define a metric d which takes as input, two spectra f1 and f2, and outputs a scalar:
 
-<div style="text-align:center">d(f_1, f_2) = \sum_{i} (f_1(λ_i) − f_2(λ_i))^2</div>
+<div style="text-align:center">
+d(f_1, f_2) = \sum_{i} (f_1(λ_i) − f_2(λ_i))^2
+</div>
+
+```python
+dists = ((df_fs_test_r - row) ** 2).sum(axis=1)
+```
 
 The metric d computes squared distance between the new datapoint and previous datapoints. If f1 and f2 are right spectra, then we take the preceding sum only over λ ∈ {1300, . . . , 1599}, rather than the entire spectrum.
 
