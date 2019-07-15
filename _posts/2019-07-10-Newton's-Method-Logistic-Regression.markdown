@@ -30,7 +30,7 @@ where
 is called the logistic function or the sigmoid function.
 
 
-The Newton's Method can be used in place of Simple Logistic Regression Algorithm. It can be used to maximize the log likelihood function, $l(\theta)$ .
+The Newton's Method can be used in place of Simple Logistic Regression Algorithm. It can be used to maximize the log likelihood function, l(θ).
 
 
 
