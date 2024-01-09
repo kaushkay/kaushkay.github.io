@@ -4,27 +4,18 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>I'm second-year <b>Electrical</b> major at <b>National Institute of Technology (Kurukshetra), India</b>. During my 2 years of college, I've developed a passion for <b>Deep Learning</b> and <b>Artificial Intelligence</b>. I'm intrigued by its research prospects. I'm extremely interested in pursuing independent research and a good internship would consolidate my future career choice.</p>
-
-<p>I'm personally interested in the applications of Computer Vision and how it is contributing to the State-of-Art of Deep Learning. I personally recommend everyone to watch Mr. Lex Fridman's (Research scientist at MIT, working on human-centered AI, autonomous vehicles, etc.) podcasts and Lectures on Deep Learning of Autonomous Vehicles. </p>
+<p> A dedicated ML Engineer with a fervent passion for pushing the boundaries of AI & ML. Committed to ongoing learning, my ultimate goal is to transition into a role as a Researcher in the field. I stay current with the latest advancements & thrive on embracing new technologies. Outside of professional realm, I bring agility & adaptability, exemplified by my prowess as a fast runner on the field. </p>
 
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li>Python</li>
-	<li>SQL</li>
-	<li>C</li>
-	<li>Matlab</li>
-	<li>Tensorflow</li>
-	<li>Scikit-Learn, Numpy, Pandas, Spark, Jupyter</li>
-	<li>Keras</li>
-	<li>OpenCV</li>
-	<li>Big Data</li>
-	<li>GCP</li>
-	<li>Github</li>
-	<li>Docker</li>
+	<li>__bold__ Languages: __bold__ Python, C++, MATLAB, Java, Javascript, HTML, CSS, LaTeX.</li>
+	<li>__bold__ Frameworks & Libraries: __bold__ PyTorch, Torch, Tensorflow, Keras, Django, Hadoop, NumPy, Pandas, Scikit-Learn, Matplotlib, Deepspeed.</li>
+	<li>__bold__ DevOps: __bold__ Docker, Amazon Web Services, Google Cloud Platform, Kubernetes.</li>
+	<li>__bold__ Other Tools: __bold__ MySQL, MongoDB, Linux, Git</li>
 </ul>
 
+<!--
 <h2>Projects</h2>
 
 <ul>
@@ -34,3 +25,4 @@ layout: page
 	<li><a href="https://github.com/kaushkay/Multi-input-and-multi-output-models">Multi-input-and-multi-output-models</a></li>
 
 </ul>
+-->
