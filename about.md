@@ -9,10 +9,10 @@ layout: page
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li>**Languages:** Python, C++, MATLAB, Java, Javascript, HTML, CSS, LaTeX.</li>
-	<li>**Frameworks & Libraries:** PyTorch, Torch, Tensorflow, Keras, Django, Hadoop, NumPy, Pandas, Scikit-Learn, Matplotlib, Deepspeed.</li>
-	<li>**DevOps:** Docker, Amazon Web Services, Google Cloud Platform, Kubernetes.</li>
-	<li>**Other Tools:** MySQL, MongoDB, Linux, Git</li>
+	<li><b>Languages:</b> Python, C++, MATLAB, Java, Javascript, HTML, CSS, LaTeX.</li>
+	<li><b>Frameworks & Libraries:</b>b> PyTorch, Torch, Tensorflow, Keras, Django, Hadoop, NumPy, Pandas, Scikit-Learn, Matplotlib, Deepspeed.</li>
+	<li><b>DevOps:</b> Docker, Amazon Web Services, Google Cloud Platform, Kubernetes.</li>
+	<li><b>Other Tools:</b> MySQL, MongoDB, Linux, Git</li>
 </ul>
 
 <!--
